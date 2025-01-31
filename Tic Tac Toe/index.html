@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="mode-selection">
+        <button id="2-player">2 Player</button>
+        <button id="ai-bot">AI Bot</button>
+    </div>
+    <div class="name-input" style="display: none;">
+        <p id="name-prompt"></p>
+        <input type="text" id="player1-name" placeholder="Enter Player 1 Name" />
+        <input type="text" id="player2-name" placeholder="Enter Player 2 Name" style="display: none;" />
+        <button id="start-game">Start Game</button>
+    </div>
+    <div class="grid-container" style="display: none;"></div>
+    <p class="game-status"></p>
+    <div class="reset-container" style="display: none;">
+        <button id="reset">Reset</button>
+        <button id="back">Back</button>
+    </div>
+</body>
+
+</html>
